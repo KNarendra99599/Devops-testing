@@ -1,0 +1,10 @@
+---
+name: My Starter Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  call-workflow-in-local-repo:
+    uses: ./.github/workflows/main.yaml
